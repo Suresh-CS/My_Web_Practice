@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="/Design a webpage for online food delivery system using HTML and CSS/Style.css">
+
+</head>
+<body>
+    <div id="ContactUs">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type Yours Query
+                </label>
+
+                <select name="MyQuery" id="query">
+                    <option val="sel" selected>
+                        Select
+                    </option>
+
+                    <option val="ord">
+                        Order related issue
+                    </option>
+                    <option value="Site"> 
+                        Site related Issues 
+                    </option> 
+                    <option value="fed"> 
+                        Complaint related Issues 
+                    </option> 
+                    <option value="others"> 
+                        Others 
+                    </option>             
+
+                </select>
+            </div>
+
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" name="myname" id="name" 
+                placeholder="Enter yours name">
+
+            </div>
+
+            <div class="form-shape">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"
+                placeholder="Enter yours email address">
+
+            </div>
+
+            <div class="form-shape">
+                <label for="phone Number">Phone Number</label>
+                <input type="number" name="Number" id="Number" 
+                placeholder="Enter you phone number">
+            </div>
+
+            <div id="radio">
+                Are you a member of OnlneFoodShop: 
+                Yes : <input type="radio" name="eligible ">
+                No : <input type="radio" name="eligible">
+            </div>
+
+            <div class="form-shape">
+                <label for ="message">
+                    Exlpain yours Query
+                    
+                </label>
+                <textarea name="mesg" id ="message"
+                    cols="30" rows="10">
+                </textarea>
+    
+            </div>
+
+            <input type="submit" value="submit">
+            <input type="reset" id="reset">
+        
+        </form>
+
+    </div>  
+</body>
+</html>
